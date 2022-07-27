@@ -8,6 +8,7 @@ n=int(input("Eneter the number of columns of matrix a: "))
 a=[[int(input())for i in range(m)]for j in range(n)]
 print("The matrix a: ",a)
 
+b=[]
 p=int(input("Enter the number of rows of matrix b: "))
 q=int(input("Enter the number of columns of matrix b: "))
 b=[[int(input())for i in range(p)]for j in range(q)]
